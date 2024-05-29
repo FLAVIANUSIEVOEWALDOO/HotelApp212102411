@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$75"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13sp"
+                android:textColor="#fff">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Legian Beach Hotel"
+                android:textSize="24sp"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Enjoying a beachfront location on Legian Beach, the 4-star Legian Hotel offers a large pool and a variety of recreational activities. Surrounded by tropical landscaped gardens, it features Balinese-style rooms with private balconies and free WiFi. Legian Beach Hotel is a stroll from the famous entertainment and dining spots of Legian, as well as the Legian Art Market. Rooms are fitted with various facilities like a minibar, a TV and air conditioning. They all have en suite bathrooms equipped with a bathtub and necessary toiletries. Legian Beach Hotels’s Indonesian restaurant provides local delicacies, while Mediterranean flavours are offered at the alfresco Gino's Pasta and Pizza Corner. Enjoy upbeat lounge music with light snacks at Ole Beach Bar located by the pool and overlooking Legian Beach. Water activities like surfing are provided at the hotel. Alternatively, indulge in a Balinese traditional massage at Usadha Relaxation Centre. Popular points of interest near Legian Beach Hotel include Sunset Star and Double Six Beach. Ku De Ta is about 1.2 km away, while Ngurah Rai International Airport is 4 km from the property. Couples particularly like the location — they rated it 9.3 for a two-person trip.">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="#ffffff"
+        android:text="Booking Now !!!">
+    </Button>
+
+</LinearLayout>
